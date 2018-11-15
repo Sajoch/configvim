@@ -32,6 +32,9 @@ set expandtab
 
 call plug#begin('~/.vim/plugged')
 
+" Colors
+Plug 'ErichDonGubler/vim-sublime-monokai'
+
 " CTags plugin
 Plug 'ludovicchabant/vim-gutentags'
 
@@ -121,3 +124,7 @@ if get(g:, 'elite_mode')
         nnoremap <Left>  :vertical resize +2<CR>
         nnoremap <Right> :vertical resize -2<CR>
 endif
+
+set t_Co=256
+set background=dark
+colorscheme sublimemonokai

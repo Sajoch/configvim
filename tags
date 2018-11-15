@@ -140,6 +140,7 @@ Anon_Trigger_Simple	plugged/ultisnips/test/test_AnonymousExpansion.py	/^class An
 Anon_Trigger_Twice	plugged/ultisnips/test/test_AnonymousExpansion.py	/^class Anon_Trigger_Twice(_AnonBase):$/;"	c
 ApplyIndent	plugged/pdv/autoload/pdv.vim	/^func! s:ApplyIndent(text, indent)$/;"	f
 ApplyPartialTimer	plugged/ale/autoload/ale/util.vim	/^function! s:ApplyPartialTimer(timer_id) abort$/;"	f
+Array	plugged/vim-sublime-monokai/examples/example.js	/^	var meh = function() {};$/;"	c
 AutoClose#DefaultPairs	plugged/vim-autoclose/plugin/AutoClose.vim	/^function! AutoClose#DefaultPairs()$/;"	f
 AutoClose#DefaultPairsModified	plugged/vim-autoclose/plugin/AutoClose.vim	/^function! AutoClose#DefaultPairsModified(pairsToAdd,openersToRemove)$/;"	f
 AutoClose#ParsePairs	plugged/vim-autoclose/plugin/AutoClose.vim	/^function! AutoClose#ParsePairs(string)$/;"	f
@@ -593,6 +594,7 @@ MenuItem.execute	plugged/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuI
 MenuItem.isSeparator	plugged/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSeparator()$/;"	f
 MenuItem.isSubmenu	plugged/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
 Merge	plugged/vim-fugitive/autoload/fugitive.vim	/^function! s:Merge(cmd, bang, args) abort$/;"	f
+Method1	plugged/vim-sublime-monokai/examples/example.go	/^func (s *S) Method1(arg1 string) (ret string) {$/;"	f
 MinimizeMaxFoldLevel	plugged/tagbar/autoload/tagbar.vim	/^function! s:MinimizeMaxFoldLevel(fileinfo, tags) abort$/;"	f
 Mirror	plugged/ultisnips/pythonx/UltiSnips/text_objects/_mirror.py	/^class Mirror(NoneditableTextObject):$/;"	c
 MirrorBeforeTabstopLeave_ExpectCorrectResult	plugged/ultisnips/test/test_Mirror.py	/^class MirrorBeforeTabstopLeave_ExpectCorrectResult(_VimTest):$/;"	c
@@ -1145,6 +1147,7 @@ StopCurrentJobs	plugged/ale/autoload/ale/engine.vim	/^function! s:StopCurrentJob
 StopCursorTimer	plugged/ale/autoload/ale/cursor.vim	/^function! s:StopCursorTimer() abort$/;"	f
 StopCursorTimer	plugged/ale/autoload/ale/virtualtext.vim	/^function! s:StopCursorTimer() abort$/;"	f
 Subcommands	plugged/vim-fugitive/autoload/fugitive.vim	/^function! s:Subcommands() abort$/;"	f
+SublimeMonokaiHighlight	plugged/vim-sublime-monokai/colors/sublimemonokai.vim	/^fun! g:SublimeMonokaiHighlight(group, style)$/;"	f
 Subst	plugged/ale/ale_linters/prolog/swipl.vim	/^function! s:Subst(format, vars) abort$/;"	f
 SynFold	plugged/php.vim/syntax/php.vim	/^  command! -nargs=+ SynFold <args> fold$/;"	c
 SynFold	plugged/php.vim/syntax/php.vim	/^  command! -nargs=+ SynFold <args>$/;"	c
@@ -2964,6 +2967,7 @@ ale_linters#yaml#yamllint#GetCommand	plugged/ale/ale_linters/yaml/yamllint.vim	/
 ale_linters#yaml#yamllint#Handle	plugged/ale/ale_linters/yaml/yamllint.vim	/^function! ale_linters#yaml#yamllint#Handle(buffer, lines) abort$/;"	f
 ale_linters#yang#yang_lsp#GetProjectRoot	plugged/ale/ale_linters/yang/yang_lsp.vim	/^function! ale_linters#yang#yang_lsp#GetProjectRoot(buffer) abort$/;"	f
 ale_refresh	plugged/vim-airline/autoload/airline/extensions/ale.vim	/^function! s:ale_refresh()$/;"	f
+anotherThing	plugged/vim-sublime-monokai/examples/example.js	/^	var anotherThing = undefined;$/;"	v
 append	plugged/ultisnips/pythonx/UltiSnips/buffer_proxy.py	/^    def append(self, line, line_number=-1):$/;"	m	class:VimBufferProxy
 append_ul	autoload/plug.vim	/^function! s:append_ul(lnum, text)$/;"	f
 args	plugged/ultisnips/test/test_AnonymousExpansion.py	/^    args = '"simple $1 expand $1 $0"'$/;"	v	class:Anon_NoTrigger_Multi
@@ -3029,6 +3033,7 @@ basename	plugged/ultisnips/pythonx/UltiSnips/text_objects/_python_code.py	/^    
 baz	plugged/vim-php-cs-fixer/tests/fixtures/misc/phpdocs.test.php	/^    public $baz;$/;"	v
 baz	plugged/vim-php-cs-fixer/tests/results/misc/phpdocs.test.php	/^    public $baz;$/;"	v
 bindeval	plugged/ultisnips/pythonx/UltiSnips/_vim.py	/^def bindeval(text):$/;"	f
+bleh	plugged/vim-sublime-monokai/examples/example.js	/^	Array.prototype.bleh = function() {$/;"	m	class:Array
 blocks	plugged/php.vim/scripts/update-vim-syntax.php	/^$blocks = array($/;"	v
 buf	plugged/ultisnips/pythonx/UltiSnips/_vim.py	/^buf = VimBuffer()  # pylint:disable=invalid-name$/;"	v
 buffer	plugged/ultisnips/pythonx/UltiSnips/text_objects/_python_code.py	/^    def buffer(self):$/;"	m	class:SnippetUtil
@@ -3086,6 +3091,7 @@ code	plugged/ale/run-tests.bat	/^set code=%ERRORLEVEL%$/;"	v
 col2byte	plugged/ultisnips/pythonx/UltiSnips/compatibility.py	/^    def col2byte(line, col):$/;"	f
 color	plugged/ale/test/script/run-vader-tests	/^function color-vader-output() {$/;"	f
 colors	plugged/vim-airline/t/themes.vim	/^    let colors = airline#themes#get_highlight('Foo')$/;"	v
+colors_name	plugged/vim-sublime-monokai/colors/sublimemonokai.vim	/^let colors_name = 'sublimemonokai'$/;"	v
 command	plugged/ultisnips/pythonx/UltiSnips/_vim.py	/^def command(cmd):$/;"	f
 command	plugged/vim-fugitive/autoload/fugitive.vim	/^function! s:command(definition) abort$/;"	f
 compare_by_kind	plugged/tagbar/autoload/tagbar/sorting.vim	/^function! s:compare_by_kind(tag1, tag2) abort$/;"	f
@@ -3108,6 +3114,7 @@ cpath	plugged/vim-fugitive/autoload/fugitive.vim	/^function! s:cpath(path, ...) 
 create	plugged/vim-airline/autoload/airline/section.vim	/^function! s:create(parts, append)$/;"	f
 createKinddict	plugged/tagbar/autoload/tagbar/prototypes/typeinfo.vim	/^function! s:createKinddict() abort dict$/;"	f
 create_directory	plugged/ultisnips/test/vim_interface.py	/^def create_directory(dirname):$/;"	f
+create_palette_color	plugged/vim-sublime-monokai/colors/sublimemonokai.vim	/^fun! s:create_palette_color(color_name, color_data)$/;"	f
 create_pseudotag	plugged/tagbar/autoload/tagbar.vim	/^function! s:create_pseudotag(name, parent, kind, typeinfo, fileinfo) abort$/;"	f
 current_buffer	plugged/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^  let current_buffer = max([index(b.buffers, cur), 0])$/;"	v
 current_text	plugged/ultisnips/pythonx/UltiSnips/text_objects/_base.py	/^    def current_text(self):$/;"	m	class:TextObject
@@ -4691,6 +4698,9 @@ g:signify_vcs_cmds_diffmode	plugged/vim-signify/autoload/sy/repo.vim	/^  let g:s
 g:snips_author	plugged/vim-snippets/plugin/vimsnippets.vim	/^    let g:snips_author = "yourname"$/;"	v
 g:snips_email	plugged/vim-snippets/plugin/vimsnippets.vim	/^    let g:snips_email = "yourname@email.com"$/;"	v
 g:snips_github	plugged/vim-snippets/plugin/vimsnippets.vim	/^    let g:snips_github = "https:\/\/github.com\/yourname"$/;"	v
+g:sublimemonokai_gui_italic	plugged/vim-sublime-monokai/colors/sublimemonokai.vim	/^    let g:sublimemonokai_gui_italic = 1$/;"	v
+g:sublimemonokai_term_italic	plugged/vim-sublime-monokai/colors/sublimemonokai.vim	/^    let g:sublimemonokai_term_italic = 0$/;"	v
+g:sublimemonokai_termcolors	plugged/vim-sublime-monokai/colors/sublimemonokai.vim	/^let g:sublimemonokai_termcolors = 256 " does not support 16 color term right now.$/;"	v
 g:taboo_tabline	plugged/vim-airline/autoload/airline/extensions/tabline.vim	/^  let g:taboo_tabline = 0$/;"	v
 g:tagbar#icon_closed	plugged/tagbar/autoload/tagbar.vim	/^let g:tagbar#icon_closed = g:tagbar_iconchars[0]$/;"	v
 g:tagbar#icon_open	plugged/tagbar/autoload/tagbar.vim	/^let g:tagbar#icon_open   = g:tagbar_iconchars[1]$/;"	v
@@ -4806,6 +4816,7 @@ gutentags#trace	plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutenta
 gutentags#validate_cmd	plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#validate_cmd(cmd) abort$/;"	f
 gutentags#warning	plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#warning(message)$/;"	f
 gutentags_detect	plugged/vim-gutentags/plugin/gutentags.vim	/^augroup gutentags_detect$/;"	a
+h	plugged/vim-sublime-monokai/colors/sublimemonokai.vim	/^fun! s:h(group, style)$/;"	f
 handleLeftClick	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleLeftClick()$/;"	f
 handleMiddleMouse	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleMiddleMouse()$/;"	f
 handle_action	plugged/ultisnips/pythonx/UltiSnips/snippet/source/file/_common.py	/^def handle_action(head, tail, line_index):$/;"	f
@@ -4819,6 +4830,7 @@ hl	plugged/vim-airline/t/highlighter.vim	/^    let hl = airline#highlighter#get_
 hl	plugged/vim-airline/t/themes.vim	/^    let hl = airline#themes#get_highlight('Foo', 'bold', 'italic')$/;"	v
 hl	plugged/vim-airline/t/themes.vim	/^    let hl = airline#themes#get_highlight2(['Foo','bg'], ['Foo','fg'], 'italic', 'bold')$/;"	v
 hl_group_exists	plugged/vim-airline/autoload/airline/highlighter.vim	/^function! s:hl_group_exists(group)$/;"	f
+hmm	plugged/vim-sublime-monokai/examples/example.js	/^	var hmm = null;$/;"	v
 i	plugged/ale/ftplugin/ale-preview-selection.vim	/^noremap <buffer> i <NOP>$/;"	m
 ifExtensionEnabled	plugged/php.vim/scripts/update-vim-syntax.php	/^$ifExtensionEnabled = function ($extensionName) {$/;"	v
 ignores	plugged/ultisnips/test/test_Selection.py	/^    ignores = ['H']$/;"	v	class:SelectModeMappings_IgnoreMappings1_ECR
@@ -5431,11 +5443,12 @@ log	autoload/plug.vim	/^function! s:log(bullet, name, lines)$/;"	f
 log4	autoload/plug.vim	/^function! s:log4(name, msg)$/;"	f
 logpos	autoload/plug.vim	/^function! s:logpos(name)$/;"	f
 lpad	autoload/plug.vim	/^function! s:lpad(str, len)$/;"	f
-main	a.c	/^int main() {$/;"	f
 main	plugged/ale/test/dumb_tcp_client.py	/^def main():$/;"	f
 main	plugged/ale/test/dumb_tcp_server.py	/^def main():$/;"	f
 main	plugged/ale/test/script/block-padding-checker	/^def main():$/;"	f
 main	plugged/ultisnips/test_all.py	/^    def main():$/;"	f	function:setup_other_plugins
+main	plugged/vim-sublime-monokai/examples/example.go	/^func main() {$/;"	f
+main	plugged/vim-sublime-monokai/examples/example.go	/^package main;$/;"	p
 main_syntax	plugged/php.vim/syntax/php.vim	/^  let main_syntax = 'php'$/;"	v
 make_box	plugged/vim-snippets/pythonx/vimsnippets.py	/^def make_box(twidth, bwidth=None):$/;"	f
 manual_update_tags	plugged/vim-gutentags/autoload/gutentags.vim	/^function! s:manual_update_tags(bang) abort$/;"	f
@@ -5452,6 +5465,7 @@ mark_window	plugged/tagbar/autoload/tagbar.vim	/^function! s:mark_window() abort
 matched	plugged/ultisnips/pythonx/UltiSnips/snippet/definition/_base.py	/^    def matched(self):$/;"	m	class:SnippetDefinition
 matches	plugged/ultisnips/pythonx/UltiSnips/snippet/definition/_base.py	/^    def matches(self, before, visual_content=None):$/;"	m	class:SnippetDefinition
 maxDiff	plugged/ultisnips/test/vim_test_case.py	/^    maxDiff = None  # Show all diff output, always.$/;"	v	class:VimTestCase
+meh	plugged/vim-sublime-monokai/examples/example.js	/^	var meh = function() {};$/;"	m	class:test
 mkline	plugged/ultisnips/pythonx/UltiSnips/text_objects/_python_code.py	/^    def mkline(self, line='', indent=None):$/;"	m	class:SnippetUtil
 mode	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def mode(self):$/;"	m	class:VimPosition
 mode	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def mode(self):$/;"	m	class:VisualContentPreserver
@@ -5636,6 +5650,7 @@ refresh	plugged/ultisnips/pythonx/UltiSnips/snippet/source/_base.py	/^    def re
 refresh	plugged/ultisnips/pythonx/UltiSnips/snippet/source/file/_base.py	/^    def refresh(self):$/;"	m	class:SnippetFileSource
 refreshCurrent	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshCurrent(node)$/;"	f
 refreshRoot	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshRoot()$/;"	f
+regex	plugged/vim-sublime-monokai/examples/example.js	/^	var regex = \/\\x02\\t(?:asdf)|wat|\\bstuff+|things\\23[0-9]\/g;$/;"	v
 register_snippet_source	plugged/ultisnips/pythonx/UltiSnips/snippet_manager.py	/^    def register_snippet_source(self, name, snippet_source):$/;"	m	class:SnippetManager
 regress_bar	autoload/plug.vim	/^function! s:regress_bar()$/;"	f
 reload_plugins	autoload/plug.vim	/^function! s:reload_plugins()$/;"	f
@@ -5703,6 +5718,7 @@ s	plugged/vim-airline/t/section.vim	/^    let s = airline#section#create_right([
 s	plugged/vim-airline/t/section.vim	/^    let s = airline#section#create_right(['ffenc','%{strftime("%H:%M")}'])$/;"	v
 s	plugged/vim-airline/t/section.vim	/^    let s = airline#section#create_right(['raw', '%f'])$/;"	v
 s	plugged/vim-airline/t/section.vim	/^    let s = airline#section#create_right(['text', 'text'])$/;"	v
+s	plugged/vim-sublime-monokai/examples/example.go	/^type s struct {$/;"	t
 s:AutoClosePairs_FactoryDefaults	plugged/vim-autoclose/plugin/AutoClose.vim	/^let s:AutoClosePairs_FactoryDefaults = AutoClose#ParsePairs("() {} [] ` \\" '")$/;"	v
 s:BB	plugged/vim-airline-themes/autoload/airline/themes/base16_spacemacs.vim	/^let s:BB = [s:gui_termfg, s:gui_termbg, s:cterm_termfg, s:cterm_termbg] " Branch and file format blocks$/;"	v
 s:BB	plugged/vim-airline-themes/autoload/airline/themes/murmur.vim	/^let s:BB = [s:gui_termfg, s:gui_termbg, s:cterm_termfg, s:cterm_termbg] " Branch and file format blocks$/;"	v
@@ -9902,6 +9918,7 @@ template	plugged/vmustache/tests/test012_bug_render_list_empty.vim	/^let templat
 template	plugged/vmustache/tests/test013_func_tag.vim	/^let template = vmustache#Parse(tokens)$/;"	v
 template	plugged/vmustache/tests/test014_counter.vim	/^let template = vmustache#Parse(tokens)$/;"	v
 template	plugged/vmustache/tests/test015_complex_snipmate.vim	/^let template = vmustache#Parse(tokens)$/;"	v
+test	plugged/vim-sublime-monokai/examples/example.js	/^function test(stuff) {$/;"	c
 tests	plugged/ale/run-tests.bat	/^if not "%1"=="" set tests=%1$/;"	v
 tests	plugged/ale/run-tests.bat	/^set tests=test\/*.vader test\/*\/*.vader test\/*\/*\/*.vader test\/*\/*\/*\/*.vader$/;"	v
 text	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def text(self):$/;"	m	class:VisualContentPreserver
