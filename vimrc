@@ -70,6 +70,9 @@ Plug 'majutsushi/tagbar'
 " Devicons (needs nerd font!)
 "Plug 'ryanoasis/vim-devicons'
 
+" JS Beautiify
+Plug 'maksimr/vim-jsbeautify'
+
 call plug#end()
 
 " Autoload NERDtree on vim start
@@ -127,4 +130,20 @@ endif
 
 set t_Co=256
 set background=dark
-colorscheme sublimemonokai
+"colorscheme sublimemonokai
+
+" Invisible characters
+set listchars=tab:▸\ ,eol:¬ 
+highlight NonText ctermfg=DarkGrey cterm=NONE guifg=#262626 gui=NONE 
+highlight SpecialKey ctermfg=DarkGrey cterm=NONE guifg=#262626 gui=NONE 
+set list
+
+nmap <leader>l :set list!<CR>
+:set number relativenumber
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+:augroup END
+
+nmap <space> <leader>
